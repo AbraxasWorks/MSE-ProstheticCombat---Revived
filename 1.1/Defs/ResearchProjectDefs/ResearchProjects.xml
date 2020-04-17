@@ -11,13 +11,13 @@
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>PrecisionRifling</li>
-			<li>MSE_SpecialBionics</li>
+			<!-- <li>MSE_SpecialBionics</li> -->
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-		<tab>MSE</tab>
+		<!-- <tab>MSE</tab> -->
 		<researchViewX>4</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
@@ -36,7 +36,7 @@
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-		<tab>MSE</tab>
+		<!-- <tab>MSE</tab> -->
 		<researchViewX>4</researchViewX>
 		<researchViewY>5.0</researchViewY>
 	</ResearchProjectDef>
@@ -49,14 +49,13 @@
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>ChargedShot</li>
-			<li>MSE_ArchotechSurgery</li>
 			<li>MSEPC_MultibarrelBionicWeapons</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-		<tab>MSE</tab>
+		<!-- <tab>MSE</tab> -->
 		<researchViewX>6</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
@@ -68,14 +67,14 @@
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>MSE_ArchotechCrafting</li>
+			<!-- <li>MSE_ArchotechCrafting</li> -->
 			<li>MSEPC_ArchotechWeaponsSurgery</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-		<tab>MSE</tab>
+		<!-- <tab>MSE</tab> -->
 		<researchViewX>8</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>

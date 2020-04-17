@@ -7,7 +7,7 @@
 		<description>An advanced artificial weaponized shoulder. With its biogel nerve-link and lattice-dust healing system, it is better than a biological shoulder in almost every way. It also have mounted assault rifle weapon but only has half stats over normal assault rifle weapon. Requires bionics weapons research to install it.</description>
 		<costList> 
 			<ComponentSpacer>8</ComponentSpacer>
-			<BionicShoulder>1</BionicShoulder>
+			<!-- <BionicShoulder>1</BionicShoulder> -->
 			<Gun_AssaultRifle>1</Gun_AssaultRifle>
 		</costList>
 		<statBases>
@@ -39,7 +39,7 @@
 		<description>An advanced artificial weaponized shoulder. With its biogel nerve-link and lattice-dust healing system, it is better than a biological shoulder in almost every way. It also have mounted sniper rifle weapon but only has half stats over normal sniper rifle weapon. Requires bionics weapons research to install it.</description>
 		<costList> 
 			<ComponentSpacer>8</ComponentSpacer>
-			<BionicShoulder>1</BionicShoulder>
+			<!-- <BionicShoulder>1</BionicShoulder> -->
 			<Gun_SniperRifle>1</Gun_SniperRifle>
 		</costList>
 		<statBases>

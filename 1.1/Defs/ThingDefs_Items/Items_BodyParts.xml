@@ -1,49 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="MSEPC_BodyPartBionicX" ParentName="MSE_BodyPartBionic" Abstract="True">
+	<ThingDef Name="MSEPC_BodyPartBionicX" ParentName="MSE_ModuleBionic" Abstract="True">
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>MSEPC_BionicWeapons</researchPrerequisite>
 		</recipeMaker>
-		<thingSetMakerTags>
+		<thingSetMakerTags Inherit="False">
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
 	</ThingDef>
 
-	<ThingDef Name="MSEPC_BodyPartBionicY" ParentName="MSE_BodyPartBionic" Abstract="True">
+	<ThingDef Name="MSEPC_BodyPartBionicY" ParentName="MSE_ModuleBionic" Abstract="True">
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>MSEPC_MultibarrelBionicWeapons</researchPrerequisite>
 		</recipeMaker>
-		<thingSetMakerTags>
+		<thingSetMakerTags Inherit="False">
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
 	</ThingDef>
 
-	<ThingDef Name="MSEPC_BodyPartArchotech" ParentName="BodyPartArchotechBase" Abstract="True">
-		<techLevel>Archotech</techLevel>
-		<techHediffsTags>
-			<li>Archotech</li>
-		</techHediffsTags>
-		<thingSetMakerTags>
-			<li>RewardSpecial</li>
-		</thingSetMakerTags>
-	</ThingDef>
-
-	<ThingDef Name="MSEPC_BodyPartArchotechX" ParentName="MSEPC_BodyPartArchotech" Abstract="True">
+	<ThingDef Name="MSEPC_BodyPartArchotechX" ParentName="MSE_ModuleArchotech" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Smith</effectWorking>
-			<soundWorking>MSE_Assembling</soundWorking>
-			<recipeUsers>
+			<!-- <soundWorking>MSE_Assembling</soundWorking> -->
+			<!-- <recipeUsers>
 				<li>ArchotechProsthesesBench</li>
-			</recipeUsers>
+			</recipeUsers> -->
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>

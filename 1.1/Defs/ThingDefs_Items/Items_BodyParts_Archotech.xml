@@ -68,7 +68,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="MSEPC_BodyPartArchotech">
+	<ThingDef ParentName="MSE_ModuleArchotech">
 		<defName>MSEPC_PCSARM_HCB</defName>
 		<label>PCS ARM-HCB</label>
 		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted modified heavy charge blaster weapon. It only has half stats over normal heavy charge blaster weapon. Requires archotech weapons research to install it.</description>
@@ -78,7 +78,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="MSEPC_BodyPartArchotech">
+	<ThingDef ParentName="MSE_ModuleArchotech">
 		<defName>MSEPC_PCSARM_IC</defName>
 		<label>PCS ARM-IC</label>
 		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted modified inferno cannon weapon. It only has half stats over normal inferno cannon weapon. Requires archotech weapons research to install it.</description>

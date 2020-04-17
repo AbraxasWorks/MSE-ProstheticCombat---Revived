@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+	<HediffDef ParentName="MSE_ModuleAddedBionic">
 		<defName>MSEPC_PCBSD_AR</defName>
 		<label>PCB SD-AR</label>
 		<labelNoun>an PCB SD-AR</labelNoun>
@@ -42,13 +42,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_PCBSD_AR</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+	<HediffDef ParentName="MSE_ModuleAddedBionic">
 		<defName>MSEPC_PCBARM_AR</defName>
 		<label>PCB ARM-AR</label>
 		<labelNoun>an PCB ARM-AR</labelNoun>
@@ -89,13 +85,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_PCBARM_AR</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+	<HediffDef ParentName="MSE_ModuleAddedBionic">
 		<defName>MSEPC_PCBSD_SR</defName>
 		<label>PCB SD-SR</label>
 		<labelNoun>an PCB SD-SR</labelNoun>
@@ -134,13 +126,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_PCBSD_SR</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+	<HediffDef ParentName="MSE_ModuleAddedBionic">
 		<defName>MSEPC_PCBARM_SR</defName>
 		<label>PCB ARM-SR</label>
 		<labelNoun>an PCB ARM-SR</labelNoun>
@@ -179,13 +167,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_PCBARM_SR</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+	<HediffDef ParentName="MSE_ModuleAddedBionic">
 		<defName>MSEPC_PCBHAND_M</defName>
 		<label>PCB HAND-M</label>
 		<labelNoun>an PCB HAND-M</labelNoun>
@@ -226,13 +210,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_PCBHAND_M</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_R</defName>
 		<label>VEB ARM-R</label>
 		<labelNoun>a VEB ARM-R</labelNoun>
@@ -259,13 +239,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_R</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_A</defName>
 		<label>VEB ARM-A</label>
 		<labelNoun>an VEB ARM-A</labelNoun>
@@ -292,13 +268,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_A</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_MP</defName>
 		<label>VEB ARM-MP</label>
 		<labelNoun>a VEB ARM-MP</labelNoun>
@@ -327,13 +299,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_MP</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_IL</defName>
 		<label>VEB ARM-IL</label>
 		<labelNoun>an VEB ARM-IL</labelNoun>
@@ -360,13 +328,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_IL</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_BR</defName>
 		<label>VEB ARM-BR</label>
 		<labelNoun>a VEB ARM-BR</labelNoun>
@@ -392,13 +356,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_BR</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_PSG</defName>
 		<label>VEB ARM-PSG</label>
 		<labelNoun>a VEB ARM-PSG</labelNoun>
@@ -425,13 +385,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_PSG</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_CSG</defName>
 		<label>VEB ARM-CSG</label>
 		<labelNoun>a VEB ARM-CSG</labelNoun>
@@ -458,13 +414,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_CSG</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_HSMG</defName>
 		<label>VEB ARM-HSMG</label>
 		<labelNoun>a VEB ARM-HSMG</labelNoun>
@@ -493,13 +445,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_HSMG</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_LMG</defName>
 		<label>VEB ARM-LMG</label>
 		<labelNoun>a VEB ARM-LMG</labelNoun>
@@ -527,13 +475,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_LMG</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_AR</defName>
 		<label>VEB ARM-AR</label>
 		<labelNoun>an VEB ARM-AR</labelNoun>
@@ -562,13 +506,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_AR</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_SR</defName>
 		<label>VEB ARM-SR</label>
 		<labelNoun>a VEB ARM-SR</labelNoun>
@@ -595,13 +535,9 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_SR</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
-	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+	<HediffDef ParentName="MSE_ModuleAddedBionic" Abstract="True">
 		<defName>MSEPC_VEBARM_M</defName>
 		<label>VEB ARM-M</label>
 		<labelNoun>a VEB ARM-M</labelNoun>
@@ -628,10 +564,6 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>MSEPC_VEBARM_M</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
 </Defs>
