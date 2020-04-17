@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>MSE - Prosthetic Combat - Revived</name>
-	<author>Oreno</author>
+	<name>MSE2 - Prosthetic Combat</name>
+	<author></author>
 	<supportedVersions>
-		<li>1.0</li>
 		<li>1.1</li>
 	</supportedVersions>
 	
-	<packageId>Abraxas.MSERevived.ProstheticCombat</packageId>
+	<packageId>MSE2.ProstheticCombat</packageId>
 
 	<url>https://github.com/AbraxasWorks/MSE-ProstheticCombat---Revived</url>
 	
@@ -38,16 +37,16 @@ Put this mod after PCF and MSE.
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2011169338</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>Abraxas.MSERevived</packageId>
-			<displayName>Medical System Expansion - Revived</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2006968859</steamWorkshopUrl>
+			<packageId>MSE2.Core</packageId>
+			<displayName>Medical System Expansion 2 - Core Module</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadBefore>
 	</loadBefore>
 	<loadAfter>
 		<li>Jon.Revivals.ProstheticCombatFramework</li>
-		<li>Abraxas.MSERevived</li>
+		<li>MSE2.Core</li>
 	</loadAfter>
 	<incompatibleWith>
 	</incompatibleWith>
